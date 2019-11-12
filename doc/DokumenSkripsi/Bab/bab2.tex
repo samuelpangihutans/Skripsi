@@ -75,13 +75,69 @@ Subsistem manajemen berbasis pengetahuan dapat berfungsi sebagai pendukung untuk
 \end{enumerate}
 	
 \section{Metode Brown Gibson}
+Metode Brown Gibson adalah pemodelan matematika yang digunakan untuk mendukung pengambilan keputusan, dimana keputusan tersebut mempertimbangkan faktor objektif yang dikombinasikan dengan pertimbangan subjektif. Metode Brown Gibson menggunakan \textit{preference theory} dan aritmatika sederhana.
+Langkah-langkah penerapan Metode Brown Gibson :
+\begin{enumerate}
+	\item Menetapkan alternatif solusi yang ada
+	\item Menetapkan kriteria-kriteria yang menjadi pertimbangan. Kriteria tersebut dapat dikelompokkan mejadi 2 jenis, yaitu faktor objektif dan faktor subjektif. Faktor subjektif merupakan kriteria yang nilainya bersifat kualitatif atau tidak mempunyai nilai numerik, dan faktor objektif yang nilainya bersifat kuantitatif atau mempunyai nilai numerik.
+	\item Menetapkan \textit{preference of measurment} dari faktor objektif yang ada.	
+	\item Menghitung nilai \textit{Objective faktor weight} (OFW) dengan menentukan nilai performasi setiap faktor objektif yang ada dengan rumus 
+\begin{figure}[H]
+	\centering  
+	\includegraphics[scale=0.5]{ofi}   
+\end{figure}
 
+Dimana $\Sigma OFi=1$
+\item Menghitung \textit{Subjective faktor weight} (SFW)dengan melakukan \textit{pairwaise comparison} antar faktor subjektif yang ada, dengan pemberian bobot sebagai berikut : 
+\begin{itemize}
+	\item Lebih baik diberi point = 1
+	\item Sama baik diberi point masing-masing = 1 
+	\item Sama jelek diberi point masing-masing = 0
+	\item lebih jelek diberi point = 0
+\end{itemize}
+\item Menghiutng \textit{Objective factor decision weight} (OFDW) untuk setiap faktor objektif yang ada terhadap alternatif pilihan yang tersedia.
+\item Menghitung \textit{Subjective factor decision weight} (SFDW) untuk setiap faktor subjektif yang ada terhadap alternatif pilihan yang tersedia.
+\item Menghitung \textit{Subjective factor meassure} (SFM) untuk setiap faktor subjektif yang ada terhadap alternatif pilihan yang tersedia dengan rumus :
+$SFMc = SFWc * SFDWc$
+\item Menghitung Decision Weight setiap alternatif pilihan untuk setiap faktor Objektif yang ada dengan rumus :
 
+$\mbox{Decision Weight} \mbox{{\tiny (Choice c)}} = \Sigma( \mbox{OFW} \mbox{{\tiny(Factor f)}} * \mbox{OFDW} \mbox{{\tiny (Choice c,factor f)}})+(1-\mbox{OFW} \mbox{{\tiny (Factor F)}}*\mbox{SFM} \mbox{{\tiny (Choice c)}}$
 
+\item Jumlahkan semua \textit{Decision weight } dari setiap faktor objektif yang ada untuk semua pilihan alternatif yang ada. Alternatif pilihan dengan total nilai tertinggi merupakan pilihan rumah yang paling optimal. 
+	
+\end{enumerate}
 
+\section{Rumah}
+Rumah adalah salah satu kebutuhan pokok manusia yang berfungsi sebagai tempat berlindung dan beristirahat. Rumah menurut UU No.4 Tahun 1992 tentang perumahan dan pemukiman adalah bangunan yang berfungsi sebagai tempat tinggal atau hunian dan sarana pembinaan keluarga.
 
-
-
+\subsection{Fungsi Rumah}
+Menurut A.Turner (dalam jenie, 2001:45 ), rumah memiliki tiga fungsi utama, yaitu :
+\begin{enumerate}
+	\item Rumah sebagai identitas keluarga,hal ini diwujudkan melalui kualitas suatu hunian untuk melindungi  penghuni dari iklim setempat.
+	\item Rumah sebagai penunjang kesempatan keluarga untuk berkembang dalam kehidupan sosial budaya dan ekonomi atau fungsi pengemban keluarga.
+	\item Rumah sebagai penunjang rasa aman, rumah sebagai penunjang rasa aman memiliki arti adanya jaminan rasa aman dimasa depan setelah mendapatkan rumah, yang diwujudkan melalui jaminan keamanan atas lingkungan dan jaminan kepemilikan rumah dan lahan. 
+\end{enumerate}
+\subsection{Jenis Rumah}
+Terdapat 8 jenis perumahan yang dikemukakan oleh Richard Untermann dan Robert Small(1986) dalam buku Perancangan Tapak untuk Perumahan, diantaranya :
+\begin{enumerate}
+	\item Rumah Tinggal Tunggal \\
+Rumah tinggal tunggal adalah rumah tinggal yang berdiri sendiri dan biasanya digunakan oleh satu keluarga. Rumah tinggal tunggal dibangun di atas tanah yang luas sehingga rumah tersebut dikeliling halaman dan juga jarak antara satu rumah dengan rumah yang lainnya berjauhan.
+	\item Rumah Tinggal Koppel \\
+Rumah tinggal koppel adalah rumah yang disekat sama besar antara sisi kiri dan kanannya.Biasanya rumah tinggal koppel ini untuk disewakan.
+	\item Rumah Gandeng \\
+Rumah gandeng adalah rumah yang berasal dari rumah tradisional berlantai dua, yang terletak di atas sebidang tanah yang sempit. Fungsi-fungsi dasar rumah ini terletak di lantai bawah.
+	\item Rumah Kota \\
+Rumah kota sama seperti rumah gandeng dengan penambahan tempat parkir di dalam bangunannya. Rumah kota nyaman ditempati untuk sebuah keluarga tunggal.
+	\item Rumah Susun \\
+Rumah susun adalah rumah yang mampu menyesuaikan berbagai konfigurasi. Rumah susun umumnya mempunyai ruang-ruang yang berada di luar unit-unit rumah tersebut.
+	\item Rumah berpekarangan Dalam \\
+Rumah berpekarangan dalam adalah variasi dari rumah 'ranch' berlantai satu tradisional, dengan pintu masuk di bagian tengah, ruang tamu terletak di sisi dan ruang tidur terletak pada sisi lainnya.
+	\item Maisonet
+Rumah maisonet adalah rumah berkapasitas tinggi dan bertingkat rendah. Rumah ini terdiri dari dua lantai umumnya lantai satu untuk kegiatan umum dan lantai dua khusus untuk ruang tidur.
+	\item Rumah teras bertingkat \\
+Rumah gandeng dan berpekarangan dalam dapat dibuat menjenjang ke atas maupun ke bawah sebuah perbukitan untuk meningkatkan arah pandangan, dan memberikan orientasi yang lebih baik dan juga memungkinkan taman atau teras berada di atas atap dari unit dibawahnya.
+	
+\end{enumerate}
 
 
 
@@ -267,4 +323,5 @@ Beberapa hal yang harus diperhatikan pada saat menempatkan gambar:
 	\caption[ {\it Serpentes} betina]{ {\it Serpentes} jantan} 
 	\label{fig:ularpdf} 
 \end{figure} 
+ 
  
